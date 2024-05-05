@@ -1,0 +1,170 @@
+* {
+    color: #3C373B;
+  }
+  
+  h1 {
+    font-family: 'Gaegu', cursive;
+    margin: 20px 0;
+    font-size: 60px;
+    text-align: center;
+   
+  }
+  
+  h2, h3, h4, h5, h6 {
+    font-family: 'Gaegu', cursive;
+    padding: 0 10px;
+    font-size: 30px;
+    
+  }
+  
+  p {
+    font-size: 16px;
+    font-family: roboto;
+    padding: 10px;
+    line-height: 1.4;
+  }
+  
+  
+  img {
+    border-radius: 10px;
+  }
+  
+  .content-row {
+    display: flex;
+  }
+  
+  .content-row div {
+    margin: 20px;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 600px;
+  }
+  
+  .container header nav a {
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #F87B99;
+  }
+  
+  .container header nav a:hover {
+  background: white;
+  color: pink; 
+  transition-duration: 400ms;
+  }
+  
+  .about {
+    margin-top: 20px;
+  }
+  
+  .contact-section {
+    border-top: 1px dashed black;
+    padding: 20px 0;
+    width:600px;
+    height:auto;
+    position:relative;
+    border: dotted 3px black;
+    padding:50px;
+    margin-bottom:20px;
+  
+  }
+  
+  .contact-section h2 {
+    padding: 0;
+    margin: 0 0 10px 0;
+   
+  }
+  
+  address {
+    line-height: 2;
+  }
+  
+  footer {
+    width: 100%;
+    background: #F87B99;
+    border-top: 1px dashed white;
+  }
+  
+  footer .footer-content { 
+    margin: 0 auto; 
+    width: 600px;
+  }
+  
+  footer .footer-content h3 {
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  footer nav {
+    display: flex;
+  }
+  
+  footer a {
+    margin: 10px;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  footer nav a:first-child {
+    margin-left: 0;
+  }
+  
+  
+  footer nav a:hover {
+    color: white;
+  }
+  
+  .footer-content {
+    margin: 0 auto; 
+    width: 600px;
+    text-align: center; 
+  }
+  
+  footer nav {
+    display: inline-block; 
+  }
+  aside{
+    position:absolute;
+    left:350px;
+    bottom:120px;
+  }
+  input[type="text"]{
+    margin:10px 5px 5px 0;
+    background-color:#E7ECEF;
+    border:0px;
+    height:30px;
+    width:150px;
+    border-radius:5px;
+  }
+  
+  form{
+    margin-top:10px;
+  }
+  button{
+    margin-top:20px;
+    width:100px;
+    height:50px;
+    padding:10px;
+    background-color:#F87B99;
+    color:white;
+    border-radius:10px;
+    border:0px;
+  }
+  button:hover{
+    background-color: white;
+    color:#F87B99;
+    border:solid 2px #F87B99;
+  }
+  input[type="checkbox"]{
+    margin-top:10px;
+  }
+  .medium{
+    font-size:20px;
+  }
